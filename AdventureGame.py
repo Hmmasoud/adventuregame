@@ -42,14 +42,11 @@ Choice = ''
 while Choice not in Places:
     msg = '\nChoose fullname/1st letter or sequence of choice.\n'
     Choice = input(msg)
-    if Choice.lower() == 'Fields of Elysium'.lower() or
-    Choice.lower() == 'F'.lower() or Choice == '1':
+    if Choice.lower() == 'Fields of Elysium'.lower() or Choice.lower() == 'F'.lower() or Choice == '1':
         Choice = 'Fields of Elysium'
-    elif Choice.lower() == 'Torment of Hades'.lower() or
-    Choice.lower() == 'T'.lower() or Choice == '2':
+    elif Choice.lower() == 'Torment of Hades'.lower() or Choice.lower() == 'T'.lower() or Choice == '2':
         Choice = 'Torment of Hades'
-    elif Choice.lower() == 'Greece'.lower() or
-    Choice.lower() == 'G'.lower() or Choice == '3':
+    elif Choice.lower() == 'Greece'.lower() or Choice.lower() == 'G'.lower() or Choice == '3':
         Choice = 'Greece'
     else:
         Choice = ''
